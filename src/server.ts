@@ -1,9 +1,9 @@
 interface User {
-    name: string
+  name: string
 }
 
-function teste(user: User) {
-    console.log(user.name);
+function teste (user: User): void {
+  console.log(user.name)
 }
 
-teste({ name: 'novo' });
+teste({ name: 'no' })
